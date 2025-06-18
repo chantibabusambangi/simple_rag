@@ -6,10 +6,14 @@
 
 2.**data loader** also called data injection, from langchain_community.**document_loaders**
 
-3.**chunking or splitting**: from langchain.text_splitter import RecursiveCharacterTextSplitter and chunksize,chunkoverlap are paremeters
+3.**chunking or splitting**: from langchain.text_splitter import RecursiveCharacterTextSplitter and chunksize,chunkoverlap are paremeters.
+
 why to chunk the data:
+
       1.llms have specific context window size, so not exceeding that.
+      
       2.Small, focused chunks make vector search more precise.
+      
 these chunks are called docs/data.
 
 4.**embedding**
