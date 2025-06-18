@@ -1,2 +1,3 @@
-# simple_rag
-simple RAG system
+**simple RAG system
+**
+workflow:
